@@ -5,10 +5,10 @@ int main()
     scanf("%d",&a);
     if(a%4==0){
         if(a==1900){
-            printf("Not a Leap Year")
+            printf("Not a Leap Year");
         }
         else{
-            printf("Leap Year")
+            printf("Leap Year");
         }
         
     }
