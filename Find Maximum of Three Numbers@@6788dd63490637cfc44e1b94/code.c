@@ -9,10 +9,10 @@ int main()
     }
     else if(b>=a){
         else if(b>=c)
-            printf("%d",c)
+            printf("%d",c);
     }
     else{
-        printf("%d",c)
+        printf("%d",c);
     }
 
 }
