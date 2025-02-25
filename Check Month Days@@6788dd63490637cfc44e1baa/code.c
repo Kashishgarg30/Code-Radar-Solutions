@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    scanf("%d",&a);
-    switch(a)
+    int days;
+    scanf("%d",&days);
+    switch(days)
     {
         case 1:
             printf("31");
