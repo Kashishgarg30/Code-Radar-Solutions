@@ -8,16 +8,16 @@ int main()
     switch(op);
     {
         case '+':
-        printf("%d"char+"%d");
+        printf("%d %d char+");
         break;
         case '-';
-        printf("%d"char-"%d");
+        printf("%d %d char-");
         break;
         case '*';
-        printf("%d"char*"%d");
+        printf("%d %d char*");
         break;
         case '/':
-        printf("%d"char/"%d");
+        printf("%d %d char/");
         break;
         default:
         printf("error");
