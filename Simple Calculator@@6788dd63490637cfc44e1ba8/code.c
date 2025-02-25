@@ -8,19 +8,19 @@ int main()
     switch(op);
     {
         case '+':
-        printf("%d");
-        break;
+            printf("%d");
+            break;
         case '-';
-        printf("%d");
-        break;
+             printf("%d");
+            break;
         case '*';
-        printf("%d");
-        break;
+            printf("%d");
+            break;
         case '/':
-        printf("%d");
-        break;
+            printf("%d");
+            break;
         default:
-        printf("error");
+            printf("error");
     }
     return 0;
 }
