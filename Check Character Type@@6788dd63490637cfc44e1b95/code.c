@@ -8,14 +8,14 @@ int main()
     if(ch=='a' && ch=='e' && ch=='i' && ch=='o' && ch=='u'){
         printf("Vowel");
     }
-    else if(ch!='a' || ch!='e' || ch!='i' || ch!='o' || ch!='u'){
-        printf("Consonant");
+    else if(isspace(ch)){
+        printf("Special Character");
     }
     else if(isdigit(n)){
         printf("Digit");
     }
     else{
-        printf("Special Character");
+        printf("Consonant");
     }
     return 0;
 }
