@@ -3,6 +3,7 @@
 int main()
 {
     char ch;
+    int n;
 
     if(ch=='a' && ch=='e' && ch=='i' && ch=='o' && ch=='u'){
         printf("Vowel");
@@ -10,7 +11,7 @@ int main()
     else if(ch!='a' || ch!='e' || ch!='i' || ch!='o' || ch!='u'){
         printf("Consonant");
     }
-    else if(isdigit(ch)){
+    else if(isdigit(n)){
         printf("Digit");
     }
     else{
