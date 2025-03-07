@@ -1,28 +1,33 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c;
+    int a,b;
     char op;
-    scanf("%d %d %c",&a,&b,&op);
-    printf("%d %d %c",a,b,op);
-    c=a op b;
-
-    switch(op);
-    {
+    if(scanf("%d %d %c",&a,&b,&op) ! 3){
+        printf("error\n");
+        return 1;
+    }
+    switch(op){
         case '+':
-            printf("c");
+            printf("%d\n",a+b);
             break;
         case '-';
-             printf("c");
+             printf("%d\n",a-b);
             break;
         case '*';
-            printf("c");
+            printf("%d\n",a*b);
             break;
         case '/':
-            printf("c");
+            if(b == 0){
+                printf("error\n");
+            }
+            else{
+                printf("%d\n",a/b)
+            }
             break;
         default:
-            printf("error");
+            printf("error\n");
+            break;
     }
     return 0;
 }
