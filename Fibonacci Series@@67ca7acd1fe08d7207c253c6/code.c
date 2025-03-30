@@ -1,19 +1,19 @@
 #include<stdio.h>
-void fibonacciSeries(int n){
+int fibonacciSeries(int n){
     if(n==0)
     return 0;
     if(n==1)
     return 1;
     return fibonacciSeries(n-1)+ fibonacciSeries(n-2);
-    return;
+    
 }
 int main(){
     int n;
     scanf("%d",&n);
     if(n<=0){
         printf("Invalid imput\n");
-        return 0;
+        return 1;
     }
-        fibonacciSeries(n);
+
         return 0;
     }
