@@ -1,4 +1,7 @@
 #include<stdio.h>
+void fibonacciSeries(n){
+    return;
+}
 int main(){
     int n;
     scanf("%d",&n);
