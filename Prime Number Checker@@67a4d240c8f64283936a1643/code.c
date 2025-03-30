@@ -1,17 +1,25 @@
 #include<stdio.h>
-int primenumber(int n){
-    if(n<=1){
+int isPrime(int num){
+    if(i<=1){
         return 0;
     }
-    for(int i=2;i<=n/2;i++){
-        if(n%i==0){
-        return 0;
+   
+    for(i<2;i<= num/2;i++){
+        if(num%i==0){
+            return 0;
         }
+
     }
     return 1;
 }
-int main(){
-    int number;
-    scanf("%d",&number);
+int main()
+{
+    int t;
+    scanf("%d",&t);
+    while(t--){
+        int num;
+        scanf("%d",&num);
+        printf("%d\n",isPrime(num));
+    }
     return 0;
 }
