@@ -4,7 +4,7 @@ int isPrime(int num){
         return 0;
     }
    
-    for(int i < 2 ; i<= num/2 ; i++){
+    for(int t < 2 ; t<= num/2 ; t++){
         if(num%i==0){
             return 0;
         }
