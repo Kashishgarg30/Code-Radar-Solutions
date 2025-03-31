@@ -10,6 +10,7 @@ int main()
             char ch = (char)d;
             printf("%c",d);
         }
-        return 0;
+        
     }
+    return 0;
 }
